@@ -1,0 +1,192 @@
+*{
+    background: #000;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #ffff;
+    font-family:  Arial, Helvetica, sans-serif;
+    overflow: hidden;
+  }
+  
+  h3, a, p, h1, div{
+    background: none;
+  }
+  h1{
+    width: 50%;
+    padding: 5%;
+  }
+  .web{
+    font-size: 100px;
+    color: #ffffff9a;
+  
+    position: relative;
+    left: 15%;
+  }
+  
+  
+  .S{
+    font-size: 80px;
+    color: #ffffffd0;
+    
+    position: relative;
+    bottom: 3.5em;
+    left: 57%;
+    width: 60%;
+  }
+  .projects{
+    width: 70%;
+    background: linear-gradient(90deg, rgb(105, 105, 105, 0) 0%, rgba(186,185,185,0.1) 55%, rgba(255,255,255,0.2) 90%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+  .F{
+    display: inline;
+    align-items: center;
+    border: #fff solid 1px;
+  }
+  .projects p{
+    font-size: 30px;
+    position: relative;
+    top: 25%;
+    left: 2%;
+    opacity: 0.7;
+    padding-bottom: 5%;
+    width: 90%;
+  }
+  h3{
+    padding: 2%;
+    width: 35%;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 2%;
+    left: 42%;
+    opacity: 0.85;
+  }
+  
+  
+  .bubles{
+    opacity: 1;
+  }
+  .yellow{
+    width: 20%;
+    height: 300px;
+    border-radius: 50%;
+    background: yellow;
+    border: yellow 1px solid;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    filter: blur(50px);
+    display: block;
+    overflow: hidden;
+  }
+  .pink{
+    width: 50%;
+    height: 750px;
+    border-radius: 50%;
+    background: rgb(255, 0, 212);
+    position: absolute;
+    left: -25%;
+    top: 0%;
+    filter: blur(50px);
+  }
+  
+ 
+  @media screen and (max-width: 1450px) {
+    p{
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 1830px){
+    .web, .S{
+      font-size: 60px;
+    }
+    .web{
+      left: 25%;
+    }
+    .S{
+      left: 45%;
+    }
+    a{
+      top: 400px;
+    }
+    p{
+      width: 90%;
+    }
+    .projects{
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 1540px){
+  .web, .S{
+    font-size: 40px;
+    padding: 0;
+    top: 1em;
+  }
+  .S{
+    top: -1.5em;
+    left: 37%;
+  }
+  .web{
+    top: 4em;
+    left: 35%;
+  
+  }
+  a{
+    top: 750px;
+  }
+  }
+  @media screen and (max-width: 1540px){
+    .S{
+      top: 0.2em;
+      left: 0;
+      font-size: 80px;
+    }
+    .web{
+      left: 6%;
+      font-size: 80px;
+      top: 10%;
+      width: 100%;
+    }
+    .projects{
+      background: transparent;
+      border: none;
+      left: 5%;
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 620px){
+    .S, .web{
+      font-size: 60px;
+    }
+    h3{
+      left: 10%;
+      padding-bottom: 10px;
+    }
+    a{
+      top: 850px;
+      position: relative;
+      bottom: -10%;
+    }
+  }
+  @media screen and (max-width: 596px){
+    a{
+      top: 1000px;
+    }
+  }
+  @media screen and (max-width: 470px){
+    .S, .web{
+      font-size: 50px;
+    }
+    a{
+      top: 1200px;
+      width: 30%;
+    }
+  }
